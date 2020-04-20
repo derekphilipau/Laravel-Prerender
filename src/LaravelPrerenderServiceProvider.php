@@ -1,4 +1,4 @@
-<?php namespace Nutsweb\LaravelPrerender;
+<?php namespace Derekphilipau\LaravelPrerender;
 
 use App;
 use GuzzleHttp\Client;
@@ -15,7 +15,7 @@ class LaravelPrerenderServiceProvider extends ServiceProvider
      */
     protected $defer = false;
 
-    protected $package = 'nutsweb/laravel-prerender';
+    protected $package = 'derekphilipau/laravel-prerender';
 
     /**
      * Bootstrap the application events.

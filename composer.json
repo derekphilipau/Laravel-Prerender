@@ -1,5 +1,5 @@
 {
-    "name": "nutsweb/laravel-prerender",
+    "name": "derekphilipau/laravel-prerender",
     "description": "Laravel 7.x middleware for prerendering javascript-rendered pages on the fly for SEO",
     "keywords": ["laravel", "prerender"],
     "license": "MIT",
@@ -25,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Nutsweb\\LaravelPrerender\\": "src/"
+            "Derekphilipau\\LaravelPrerender\\": "src/"
         }
     }
 }
