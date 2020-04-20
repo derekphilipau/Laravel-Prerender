@@ -1,6 +1,6 @@
 {
-    "name": "keliix06/laravel-prerender",
-    "description": "Laravel middleware for prerendering javascript-rendered pages on the fly for SEO",
+    "name": "derekphilipau/laravel-prerender",
+    "description": "Laravel 7.x middleware for prerendering javascript-rendered pages on the fly for SEO",
     "keywords": ["laravel", "prerender"],
     "license": "MIT",
     "authors": [
@@ -11,17 +11,21 @@
         {
             "name": "Doyle Lewis",
             "email": "keliix06@gmail.com"
+        },
+        {
+            "name": "Derek Au",
+            "email": "derek@derekau.net"
         }
     ],
     "require": {
-        "php": ">=7.2",
-        "illuminate/support": "^6.0",
-        "guzzlehttp/guzzle": "^6.0",
-        "symfony/psr-http-message-bridge": "^1.0"
+        "php": "^7.2.5",
+        "illuminate/support": "^7.6",
+        "guzzlehttp/guzzle": "^6.3",
+        "symfony/psr-http-message-bridge": "^2.0"
     },
     "autoload": {
         "psr-4": {
-            "Nutsweb\\LaravelPrerender\\": "src/"
+            "Derekphilipau\\LaravelPrerender\\": "src/"
         }
     }
 }
